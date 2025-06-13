@@ -1,8 +1,3 @@
-Here’s a **detailed `README.md`** that explains the project, detection methodology, and provides setup instructions for both developers and end users (non-technical) who want to run the `.exe` without Python installed.
-
----
-
-````markdown
 # 🥬 Grass Detection in Beetroot Truckloads
 
 This desktop tool helps detect **green grass/weeds** in a truckload of **beetroot** using image analysis. It highlights grass patches and calculates the percentage of grass coverage in an uploaded image.
@@ -31,7 +26,6 @@ The tool uses a computer vision pipeline based on **OpenCV + HSV color threshold
   ```python
   lower_green = np.array([35, 40, 40])
   upper_green = np.array([85, 255, 255])
-````
 
 * Pixels in this range are considered potential grass.
 
